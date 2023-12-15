@@ -1,0 +1,54 @@
+﻿@model BankTransactions.Models.Transaction
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2 text-dark">
+            @Html.DisplayNameFor(model => model.AccountName)
+        </dt>
+        <dd class="col-sm-8 text-dark">
+            @Html.DisplayFor(model => model.AccountName)
+        </dd>
+        <dt class="col-sm-2 text-dark">
+            @Html.DisplayNameFor(model => model.BeneficiaryName)
+        </dt>
+        <dd class="col-sm-8 text-dark">
+            @Html.DisplayFor(model => model.BeneficiaryName)
+        </dd>
+        <dt class="col-sm-2 text-dark">
+            @Html.DisplayNameFor(model => model.BankName)
+        </dt>
+        <dd class="col-sm-8 text-dark">
+            @Html.DisplayFor(model => model.BankName)
+        </dd>
+        <dt class="col-sm-2 text-dark">
+            @Html.DisplayNameFor(model => model.SWIFTCode)
+        </dt>
+        <dd class="col-sm-8 text-dark">
+            @Html.DisplayFor(model => model.SWIFTCode)
+        </dd>
+        <dt class="col-sm-2 text-dark">
+            @Html.DisplayNameFor(model => model.Amount)
+        </dt>
+        <dd class="col-sm-8 text-dark">
+            @Html.DisplayFor(model => model.Amount)
+        </dd>
+        <dt class="col-sm-2 text-dark">
+            @Html.DisplayNameFor(model => model.Date)
+        </dt>
+        <dd class="col-sm-8 text-dark">
+            @Html.DisplayFor(model => model.Date)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" class="btn btn-primary  " asp-route-id="@Model?.TransactionId">Edit</a> 
+    <a asp-action="Index" class="btn btn-secondary" >Back to List</a>
+</div>

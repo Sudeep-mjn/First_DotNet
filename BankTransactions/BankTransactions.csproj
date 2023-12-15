@@ -1,0 +1,115 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="wwwroot\dist\css\style.css" />
+    <Content Remove="wwwroot\dist\images\cta-illustration.svg" />
+    <Content Remove="wwwroot\dist\images\feature-icon-01.svg" />
+    <Content Remove="wwwroot\dist\images\feature-icon-02.svg" />
+    <Content Remove="wwwroot\dist\images\feature-icon-03.svg" />
+    <Content Remove="wwwroot\dist\images\feature-icon-04.svg" />
+    <Content Remove="wwwroot\dist\images\feature-icon-05.svg" />
+    <Content Remove="wwwroot\dist\images\feature-icon-06.svg" />
+    <Content Remove="wwwroot\dist\images\hero-back-illustration.svg" />
+    <Content Remove="wwwroot\dist\images\hero-top-illustration.svg" />
+    <Content Remove="wwwroot\dist\images\logo.svg" />
+    <Content Remove="wwwroot\dist\images\pricing-illustration.svg" />
+    <Content Remove="wwwroot\dist\js\main.min.js" />
+    <Content Remove="wwwroot\src\images\cta-illustration.svg" />
+    <Content Remove="wwwroot\src\images\feature-icon-01.svg" />
+    <Content Remove="wwwroot\src\images\feature-icon-02.svg" />
+    <Content Remove="wwwroot\src\images\feature-icon-03.svg" />
+    <Content Remove="wwwroot\src\images\feature-icon-04.svg" />
+    <Content Remove="wwwroot\src\images\feature-icon-05.svg" />
+    <Content Remove="wwwroot\src\images\feature-icon-06.svg" />
+    <Content Remove="wwwroot\src\images\hero-back-illustration.svg" />
+    <Content Remove="wwwroot\src\images\hero-top-illustration.svg" />
+    <Content Remove="wwwroot\src\images\logo.svg" />
+    <Content Remove="wwwroot\src\images\pricing-illustration.svg" />
+    <Content Remove="wwwroot\src\js\main.js" />
+    <Content Remove="wwwroot\src\scss\abstracts\_functions.scss" />
+    <Content Remove="wwwroot\src\scss\abstracts\_include-media.scss" />
+    <Content Remove="wwwroot\src\scss\abstracts\_mixins.scss" />
+    <Content Remove="wwwroot\src\scss\abstracts\_variables.scss" />
+    <Content Remove="wwwroot\src\scss\base\_base.scss" />
+    <Content Remove="wwwroot\src\scss\base\_helpers.scss" />
+    <Content Remove="wwwroot\src\scss\base\_typography.scss" />
+    <Content Remove="wwwroot\src\scss\components\_buttons.scss" />
+    <Content Remove="wwwroot\src\scss\components\_forms.scss" />
+    <Content Remove="wwwroot\src\scss\layout\_cta.scss" />
+    <Content Remove="wwwroot\src\scss\layout\_features.scss" />
+    <Content Remove="wwwroot\src\scss\layout\_footer.scss" />
+    <Content Remove="wwwroot\src\scss\layout\_header.scss" />
+    <Content Remove="wwwroot\src\scss\layout\_hero.scss" />
+    <Content Remove="wwwroot\src\scss\layout\_main.scss" />
+    <Content Remove="wwwroot\src\scss\layout\_pricing.scss" />
+    <Content Remove="wwwroot\src\scss\style.scss" />
+    <Content Remove="wwwroot\src\scss\_normalize.scss" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\.editorconfig" Link=".editorconfig" />
+    <None Include="wwwroot\dist\css\style.css" />
+    <None Include="wwwroot\dist\images\cta-illustration.svg" />
+    <None Include="wwwroot\dist\images\feature-icon-01.svg" />
+    <None Include="wwwroot\dist\images\feature-icon-02.svg" />
+    <None Include="wwwroot\dist\images\feature-icon-03.svg" />
+    <None Include="wwwroot\dist\images\feature-icon-04.svg" />
+    <None Include="wwwroot\dist\images\feature-icon-05.svg" />
+    <None Include="wwwroot\dist\images\feature-icon-06.svg" />
+    <None Include="wwwroot\dist\images\hero-back-illustration.svg" />
+    <None Include="wwwroot\dist\images\hero-top-illustration.svg" />
+    <None Include="wwwroot\dist\images\logo.svg" />
+    <None Include="wwwroot\dist\images\pricing-illustration.svg" />
+    <None Include="wwwroot\dist\js\main.min.js" />
+    <None Include="wwwroot\src\images\cta-illustration.svg" />
+    <None Include="wwwroot\src\images\feature-icon-01.svg" />
+    <None Include="wwwroot\src\images\feature-icon-02.svg" />
+    <None Include="wwwroot\src\images\feature-icon-03.svg" />
+    <None Include="wwwroot\src\images\feature-icon-04.svg" />
+    <None Include="wwwroot\src\images\feature-icon-05.svg" />
+    <None Include="wwwroot\src\images\feature-icon-06.svg" />
+    <None Include="wwwroot\src\images\hero-back-illustration.svg" />
+    <None Include="wwwroot\src\images\hero-top-illustration.svg" />
+    <None Include="wwwroot\src\images\logo.svg" />
+    <None Include="wwwroot\src\images\pricing-illustration.svg" />
+    <None Include="wwwroot\src\js\main.js" />
+    <None Include="wwwroot\src\scss\abstracts\_functions.scss" />
+    <None Include="wwwroot\src\scss\abstracts\_include-media.scss" />
+    <None Include="wwwroot\src\scss\abstracts\_mixins.scss" />
+    <None Include="wwwroot\src\scss\abstracts\_variables.scss" />
+    <None Include="wwwroot\src\scss\base\_base.scss" />
+    <None Include="wwwroot\src\scss\base\_helpers.scss" />
+    <None Include="wwwroot\src\scss\base\_typography.scss" />
+    <None Include="wwwroot\src\scss\components\_buttons.scss" />
+    <None Include="wwwroot\src\scss\components\_forms.scss" />
+    <None Include="wwwroot\src\scss\layout\_cta.scss" />
+    <None Include="wwwroot\src\scss\layout\_features.scss" />
+    <None Include="wwwroot\src\scss\layout\_footer.scss" />
+    <None Include="wwwroot\src\scss\layout\_header.scss" />
+    <None Include="wwwroot\src\scss\layout\_hero.scss" />
+    <None Include="wwwroot\src\scss\layout\_main.scss" />
+    <None Include="wwwroot\src\scss\layout\_pricing.scss" />
+    <None Include="wwwroot\src\scss\style.scss" />
+    <None Include="wwwroot\src\scss\_normalize.scss" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="6.0.23" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="6.0.23" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.25" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="6.0.23" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.25" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.25">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.16" />
+  </ItemGroup>
+
+</Project>
