@@ -284,3 +284,4 @@ D:\.net\BankTransactions\BankTransactions\obj\Debug\net6.0\refint\BankTransactio
 D:\.net\BankTransactions\BankTransactions\obj\Debug\net6.0\BankTransactions.pdb
 D:\.net\BankTransactions\BankTransactions\obj\Debug\net6.0\BankTransactions.genruntimeconfig.cache
 D:\.net\BankTransactions\BankTransactions\obj\Debug\net6.0\ref\BankTransactions.dll
+D:\.net\BankTransactions\BankTransactions\obj\Debug\net6.0\BankTransactions.sourcelink.json
